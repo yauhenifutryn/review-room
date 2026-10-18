@@ -1,0 +1,12 @@
+node_modules/
+.private/
+.wrangler/
+dist/
+.env*
+.dev.vars*
+*.csv
+!examples/*.csv
+*.tar.gz
+.DS_Store
+.openai/hosting.json
+wrangler.jsonc

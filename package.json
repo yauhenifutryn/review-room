@@ -1,0 +1,21 @@
+{
+  "name": "review-room",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A data-free collaborative application review room for ChatGPT Sites.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "node scripts/bundle.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "import": "node scripts/import-candidates.mjs",
+    "privacy": "node scripts/check-public.mjs"
+  },
+  "devDependencies": {
+    "csv-parse": "7.0.3"
+  }
+}

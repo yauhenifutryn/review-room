@@ -1,0 +1,28 @@
+[
+  {
+    "id": "example_applicant_a",
+    "name": "Example Applicant A",
+    "firstDepartment": "Partnerships",
+    "secondDepartment": "Marketing",
+    "hours": 8,
+    "city": "Warsaw",
+    "commitment": "Weekly",
+    "answers": {
+      "achievement": "For this fictional example, I organized a small campus workshop.",
+      "vision": "I would like to make it easier for students to meet people building useful projects."
+    }
+  },
+  {
+    "id": "example_applicant_b",
+    "name": "Example Applicant B",
+    "firstDepartment": "Event Management",
+    "secondDepartment": "People",
+    "hours": 5,
+    "city": "Krakow",
+    "commitment": "Flexible",
+    "answers": {
+      "initiative": "For this fictional example, I helped a student group run a community meetup.",
+      "motivation": "I enjoy helping people find collaborators and make steady progress."
+    }
+  }
+]
