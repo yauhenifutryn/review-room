@@ -8,7 +8,7 @@ This is a default, not a universal monochrome template. Expressive typography, c
 
 ## Responsive interface contract
 
-Use one mobile-first stylesheet rather than successive compactness overrides. The common interface uses the platform sans-serif family and a 12/14/16/20/24 px scale expressed in rem: metadata, UI labels, input/reading text, page heading and numeric emphasis. Font weight communicates hierarchy without arbitrary size jumps.
+Use one mobile-first stylesheet rather than successive compactness overrides. The common interface uses the platform sans-serif family and a 12/14/16/20 px scale expressed in rem: metadata, UI labels, input/reading text, headings and numeric emphasis. Font weight communicates hierarchy without arbitrary size jumps.
 
 On phones, criterion labels and their weights sit above a full-width score strip. The visual strip is restrained; score targets remain 44 px tall. Department controls stack below 360 px. Text-entry controls retain 16 px input text, while short prompts use the UI scale. Results reflow into readable label/value groups; do not shrink five desktop columns into tiny mobile labels. Long names and application text must wrap without page-level horizontal scrolling.
 
@@ -21,3 +21,5 @@ Research references inform the mechanics, not the visual identity:
 - [WCAG reflow](https://www.w3.org/WAI/WCAG22/Understanding/reflow.html): preserve content and functionality at 320 CSS px without horizontal page scrolling.
 
 Verify reading, scoring, selected and incomplete states, Results, long content and keyboard focus at phone widths plus desktop. Browser emulation cannot establish real-device Safari keyboard behavior.
+
+Use at most four type sizes throughout this interface. Department and verdict selectors use the 14 px UI size, matching score controls and actions; text-entry and application-reading text retain 16 px. Compact visible styling must preserve usable native hit areas.
