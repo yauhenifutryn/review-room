@@ -80,6 +80,7 @@ function isPrivatePath(relativePath) {
   const parts = relativePath.split("/").filter(Boolean);
   return parts.some((part) =>
     part === ".private" ||
+    part === ".agent" ||
     part.startsWith(".env") ||
     part.startsWith(".dev.vars"),
   ) || relativePath === ".openai/hosting.json";
